@@ -1,0 +1,10 @@
+### Missing 3D models - created on 2022-01-03 17:16
+### Printed by checking_3D_models plugin
+Board file: /Users/nrm/Documents/DIY_Projects/Serge CGS/Full Linear PSU/Full Linear PSU.kicad_pcb
+3D missing models written to:
+/Users/nrm/Documents/DIY_Projects/Serge CGS/Full Linear PSU/Full Linear PSU_missing3Dmodels.txt
+-------
+('J2', '${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.step')
+-------
+NUM of 3D missing models:1
+checked extensions ['.stp', '.step', '.stpZ']

@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/nrm/Documents/DIY_Projects/Serge CGS/Full Linear PSU/Full Linear PSU.kicad_sch</source>
+    <date>Monday, January 03, 2022 at 02:47:03 pm</date>
+    <tool>Eeschema (6.0.0-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Full Linear PSU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17164639-190d-432e-9513-e40c4879cd49</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2200µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/EEUHD.pdf</datasheet>
+      <fields>
+        <field name="Part">EEU-HD1V222B</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Part" value="EEU-HD1V222B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cca7302-675f-47e9-ae69-80deb2c791bd</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>2200µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/EEUHD.pdf</datasheet>
+      <fields>
+        <field name="Part">EEU-HD1V222B</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Part" value="EEU-HD1V222B"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b41fc03a-360c-474c-b631-2fa59bce4aa7</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a34843a6-2d83-48ff-b157-2f07005716a6</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f312322-f2af-4cc9-bb28-1cf19f9b0c12</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a927d1e6-0247-43f5-a7e5-84e0c9720c42</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>22µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96aaca5e-0f64-4799-8bc0-ad1b6aca8450</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22µF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d93c75f-147b-4574-8663-221ec10381c8</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1075f736-0c6d-467e-9d4a-24d70bd5fbd6</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>335ad363-fdb4-4610-b3d8-1190a34fe3de</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a6111c2-fa85-4d87-adcf-dafee1d496e7</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3e7026e-0066-4689-9bd0-d8e7d49ed072</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df3bf32d-d41c-41f5-8786-034b8f6ab6d8</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecc4c516-ce7f-43f5-bde2-6aa23a8b1db5</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73024cf1-0378-40ec-92b5-53b694d570c1</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>1N4004</value>
+      <footprint>digikey-footprints:DO-41</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds28002.pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND" description="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Digi-Key_PN" value="1N4004DICT-ND"/>
+      <property name="MPN" value="1N4004-T"/>
+      <property name="Category" value="Discrete Semiconductor Products"/>
+      <property name="Family" value="Diodes - Rectifiers - Single"/>
+      <property name="DK_Datasheet_Link" value="https://www.diodes.com/assets/Datasheets/ds28002.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593"/>
+      <property name="Description" value="DIODE GEN PURP 400V 1A DO41"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="Status" value="Not For New Designs"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b330cdfb-9619-483e-b00c-adf15967aee0</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d00a1353-bb5e-4a6d-a2d2-8176a0cadab5</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>311764c7-b652-45a2-af0b-30d0ba8793a5</tstamps>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <footprint>NeedlessMustard:HS346-ND</footprint>
+      <datasheet>https://www.boydcorp.com/aavid-datasheets/Board-Level-Cooling-Extruded-5000.pdf</datasheet>
+      <fields>
+        <field name="Description">HEATSINK TO-220 W/PINS 1.5"TALL</field>
+        <field name="Detail">Heat Sink TO-220 Aluminum 8.0W @ 80°C Board Level, Vertical</field>
+        <field name="MPN">513102B02500G</field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink_Pad" description="Heatsink with electrical connection, 1 pin"/>
+      <property name="MPN" value="513102B02500G"/>
+      <property name="Description" value="HEATSINK TO-220 W/PINS 1.5&quot;TALL"/>
+      <property name="Detail" value="Heat Sink TO-220 Aluminum 8.0W @ 80°C Board Level, Vertical"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac494a38-20f7-4319-a05c-3b4a548ac45d</tstamps>
+    </comp>
+    <comp ref="HS2">
+      <value>Heatsink</value>
+      <footprint>NeedlessMustard:HS346-ND</footprint>
+      <datasheet>https://www.boydcorp.com/aavid-datasheets/Board-Level-Cooling-Extruded-5000.pdf</datasheet>
+      <fields>
+        <field name="Description">HEATSINK TO-220 W/PINS 1.5"TALL</field>
+        <field name="Detail">Heat Sink TO-220 Aluminum 8.0W @ 80°C Board Level, Vertical</field>
+        <field name="MPN">513102B02500G</field>
+      </fields>
+      <libsource lib="Mechanical" part="Heatsink_Pad" description="Heatsink with electrical connection, 1 pin"/>
+      <property name="MPN" value="513102B02500G"/>
+      <property name="Description" value="HEATSINK TO-220 W/PINS 1.5&quot;TALL"/>
+      <property name="Detail" value="Heat Sink TO-220 Aluminum 8.0W @ 80°C Board Level, Vertical"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f347530-78e5-43a7-9b70-71ca93011b89</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>OSTTC030162</value>
+      <footprint>digikey-footprints:Term_Block_1x3_P5mm</footprint>
+      <datasheet>http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC030162/ED2601-ND/614550</field>
+        <field name="Description">TERM BLK 3POS SIDE ENTRY 5MM PCB</field>
+        <field name="Digi-Key_PN">ED2601-ND</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="MPN">OSTTC030162</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC030162" description="TERM BLK 3POS SIDE ENTRY 5MM PCB"/>
+      <property name="Digi-Key_PN" value="ED2601-ND"/>
+      <property name="MPN" value="OSTTC030162"/>
+      <property name="Category" value="Connectors, Interconnects"/>
+      <property name="Family" value="Terminal Blocks - Wire to Board"/>
+      <property name="DK_Datasheet_Link" value="http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/on-shore-technology-inc/OSTTC030162/ED2601-ND/614550"/>
+      <property name="Description" value="TERM BLK 3POS SIDE ENTRY 5MM PCB"/>
+      <property name="Manufacturer" value="On Shore Technology Inc."/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b250678-8232-4131-9946-a13ccccf913d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Eurorack_Power_10pin_Unshrouded</value>
+      <footprint>4ms_Connector:Pins_2x05_2.54mm_TH_Europower</footprint>
+      <fields>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-1002FBV0T</field>
+        <field name="Specifications">HEADER 2x5 MALE PINS 0.100” 180deg</field>
+      </fields>
+      <libsource lib="4ms_Connector" part="Eurorack_Power_10pin_Unshrouded" description="HEADER 2x5 MALE PINS 0.100” 180deg"/>
+      <property name="Specifications" value="HEADER 2x5 MALE PINS 0.100” 180deg"/>
+      <property name="Manufacturer" value="TAD"/>
+      <property name="Part Number" value="1-1002FBV0T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>107c47a8-e878-4118-b73f-e110756d73c3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K5Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b298cbd3-978c-45ec-b603-b77150df68a3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K5Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8b248e3-0713-4fa6-ba4b-8eed4989c3dc</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62b02d3e-8cbd-4ef5-a412-0f85c8e0d50b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220Ω</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb1dd91-7dbe-4238-ad67-5dd5e10512eb</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d62ef542-58c4-4bbb-a4d2-e05e0d10da2f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1KΩ</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb7d3d89-989a-4c32-befa-698c84481633</tstamps>
+    </comp>
+    <comp ref="TR1">
+      <value>164G36</value>
+      <footprint>NeedlessMustard:164G36</footprint>
+      <datasheet>https://www.farnell.com/datasheets/2238140.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Hammond</field>
+        <field name="Parallel">18V @ .7A</field>
+        <field name="Series">36V C.T. @ .35A</field>
+        <field name="Size">12VA</field>
+      </fields>
+      <libsource lib="NeedlessMustard" part="164G36" description=""/>
+      <property name="Manufacturer" value="Hammond"/>
+      <property name="Size" value="12VA"/>
+      <property name="Series" value="36V C.T. @ .35A"/>
+      <property name="Parallel" value="18V @ .7A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec97330b-099f-443d-b88c-6a3020cda9eb</tstamps>
+    </comp>
+    <comp ref="TRIM1">
+      <value>TrimPot_3299Y_2k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/3299.pdf</datasheet>
+      <fields>
+        <field name="Display">2k</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Part Number">3299Y-1-202LF</field>
+        <field name="Specifications">Trimpot, TH, 2k, 25 turn, square</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="TrimPot_T73YEt_1k" description="Trimpot, TH, 1k, single turn, square"/>
+      <property name="Specifications" value="Trimpot, TH, 2k, 25 turn, square"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="Part Number" value="3299Y-1-202LF"/>
+      <property name="Display" value="2k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccfba2f9-a6e7-4589-964e-3c9df8a7b07d</tstamps>
+    </comp>
+    <comp ref="TRIM2">
+      <value>TrimPot_3299Y_2k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/3299.pdf</datasheet>
+      <fields>
+        <field name="Display">2k</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Part Number">3299Y-1-202LF</field>
+        <field name="Specifications">Trimpot, TH, 2k, 25 turn, square</field>
+      </fields>
+      <libsource lib="4ms_Potentiometer" part="TrimPot_T73YEt_1k" description="Trimpot, TH, 1k, single turn, square"/>
+      <property name="Specifications" value="Trimpot, TH, 2k, 25 turn, square"/>
+      <property name="Manufacturer" value="Bourns"/>
+      <property name="Part Number" value="3299Y-1-202LF"/>
+      <property name="Display" value="2k"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>756c4d00-368f-4e64-864f-ee591bcb2dd0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM317_SOT-223</value>
+      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM317_SOT-223" description="1.5A 35V Adjustable Linear Regulator, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bac0ad2-bf79-47a1-8dcf-65da28b38371</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LM337_SOT223</value>
+      <footprint>Package_TO_SOT_THT:TO-220F-3_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LM337_SOT223" description="Negative 1A 35V Adjustable Linear Regulator, SOT-223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Full Linear PSU.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97fbb2bd-1bed-4cbe-8fec-87bd3700fa3f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="4ms_Connector" part="Eurorack_Power_10pin_Unshrouded">
+      <description>HEADER 2x5 MALE PINS 0.100” 180deg</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Eurorack_Power_10pin_Unshrouded</field>
+        <field name="Footprint">4ms_Connector:Pins_2x05_2.54mm_TH_Europower</field>
+        <field name="Specifications">HEADER 2x5 MALE PINS 0.100” 180deg</field>
+        <field name="Manufacturer">TAD</field>
+        <field name="Part Number">1-1002FBV0T</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12V" type="passive"/>
+        <pin num="2" name="+12V" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="-12V" type="passive"/>
+        <pin num="10" name="-12V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="4ms_Potentiometer" part="TrimPot_T73YEt_1k">
+      <description>Trimpot, TH, 1k, single turn, square</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TRIM</field>
+        <field name="Value">TrimPot_T73YEt_1k</field>
+        <field name="Footprint">4ms_Potentiometer:Pot_Trim_7x6.6mm_T73YE</field>
+        <field name="Specifications">Trimpot, TH, 1k, single turn, square</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Part Number">T73YE102KT20</field>
+        <field name="Display">1k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Left" type="passive"/>
+        <pin num="2" name="Center" type="passive"/>
+        <pin num="3" name="Right" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink_Pad">
+      <description>Heatsink with electrical connection, 1 pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NeedlessMustard" part="164G36">
+      <docs>https://www.farnell.com/datasheets/2238140.pdf</docs>
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">164G36</field>
+        <field name="Footprint">NeedlessMustard:164G36</field>
+        <field name="Datasheet">https://www.farnell.com/datasheets/2238140.pdf</field>
+        <field name="Manufacturer">Hammond</field>
+        <field name="Size">12VA</field>
+        <field name="Series">36V C.T. @ .35A</field>
+        <field name="Parallel">18V @ .7A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_SOT-223">
+      <description>1.5A 35V Adjustable Linear Regulator, SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_SOT-223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm317.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM337_SOT223">
+      <description>Negative 1A 35V Adjustable Linear Regulator, SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm337-n.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM337_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm337-n.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Diodes-Rectifiers-Single" part="1N4004-T_NRND">
+      <description>DIODE GEN PURP 400V 1A DO41</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds28002.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4004-T_NRND</field>
+        <field name="Footprint">digikey-footprints:DO-41</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="Digi-Key_PN">1N4004DICT-ND</field>
+        <field name="MPN">1N4004-T</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="DK_Datasheet_Link">https://www.diodes.com/assets/Datasheets/ds28002.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/diodes-incorporated/1N4004-T/1N4004DICT-ND/160593</field>
+        <field name="Description">DIODE GEN PURP 400V 1A DO41</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Status">Not For New Designs</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="K" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Terminal-Blocks-Wire-to-Board" part="OSTTC030162">
+      <description>TERM BLK 3POS SIDE ENTRY 5MM PCB</description>
+      <docs>http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OSTTC030162</field>
+        <field name="Footprint">digikey-footprints:Term_Block_1x3_P5mm</field>
+        <field name="Datasheet">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="Digi-Key_PN">ED2601-ND</field>
+        <field name="MPN">OSTTC030162</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Terminal Blocks - Wire to Board</field>
+        <field name="DK_Datasheet_Link">http://www.on-shore.com/wp-content/uploads/OSTTCXX0162.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-shore-technology-inc/OSTTC030162/ED2601-ND/614550</field>
+        <field name="Description">TERM BLK 3POS SIDE ENTRY 5MM PCB</field>
+        <field name="Manufacturer">On Shore Technology Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="4ms_Connector">
+      <uri>/Users/nrm/Documents/KiCAD/6.0/3rdparty/symbols/com_github_4ms_4ms-kicad-lib/4ms_Connector.kicad_sym</uri>
+    </library>
+    <library logical="4ms_Potentiometer">
+      <uri>/Users/nrm/Documents/KiCAD/6.0/3rdparty/symbols/com_github_4ms_4ms-kicad-lib/4ms_Potentiometer.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="NeedlessMustard">
+      <uri>/Users/nrm/Documents/KiCAD/6.0/3rdparty/symbols/NeedlessMustard.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="dk_Diodes-Rectifiers-Single">
+      <uri>/Users/nrm/Documents/KiCAD/6.0/3rdparty/symbols/digikey-kicad-library/dk_Diodes-Rectifiers-Single.lib</uri>
+    </library>
+    <library logical="dk_Terminal-Blocks-Wire-to-Board">
+      <uri>/Users/nrm/Documents/KiCAD/6.0/3rdparty/symbols/digikey-kicad-library/dk_Terminal-Blocks-Wire-to-Board.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="18Va">
+      <node ref="D1" pin="A" pintype="passive"/>
+      <node ref="D2" pin="K" pintype="passive"/>
+      <node ref="TR1" pin="5" pintype="passive"/>
+    </net>
+    <net code="2" name="18Vb">
+      <node ref="D3" pin="A" pintype="passive"/>
+      <node ref="D4" pin="K" pintype="passive"/>
+      <node ref="TR1" pin="8" pintype="passive"/>
+    </net>
+    <net code="3" name="GNDREF">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="TR1" pin="6" pintype="passive"/>
+      <node ref="TR1" pin="7" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="K" pintype="passive"/>
+      <node ref="D3" pin="K" pintype="passive"/>
+      <node ref="D5" pin="K" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D2" pin="A" pintype="passive"/>
+      <node ref="D4" pin="A" pintype="passive"/>
+      <node ref="D6" pin="A" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D7" pin="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D8" pin="K" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D5" pin="A" pintype="passive"/>
+      <node ref="D7" pin="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="+12V" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="+12V" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="D6" pin="K" pintype="passive"/>
+      <node ref="D8" pin="A" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="-12V" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="-12V" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="10" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="TR1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="TR1" pin="4" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TRIM1" pin="1" pinfunction="Left" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="TRIM2" pin="3" pinfunction="Right" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(TRIM1-Pad2)">
+      <node ref="TRIM1" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="TRIM1" pin="3" pinfunction="Right" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(TRIM2-Pad1)">
+      <node ref="TRIM2" pin="1" pinfunction="Left" pintype="passive"/>
+      <node ref="TRIM2" pin="2" pinfunction="Center" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ADJ" pintype="input"/>
+    </net>
+    <net code="18" name="unconnected-(HS1-Pad1)">
+      <node ref="HS1" pin="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(HS2-Pad1)">
+      <node ref="HS2" pin="1" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
