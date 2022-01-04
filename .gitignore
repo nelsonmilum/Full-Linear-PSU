@@ -4,3 +4,4 @@ Full Linear PSU-backups
 *.drl
 *.zip
 *.gbrjob
+.DS_Store
